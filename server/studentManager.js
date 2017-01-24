@@ -155,9 +155,6 @@ var searchByMark = function searchByMark(mark){
     return lista;    
 }
 
-
-
-ciao
 //export functions
 exports.searchStudentID = searchStudentID; 
 exports.searchStudentSSN = searchStudentSSN; 

@@ -137,7 +137,7 @@ var insertStudent = function insertStudent(student)
 
 var searchByMark = function searchByMark(mark){
     var voto = mark[1];
-    var lista;
+    var lista=[];
     if (mark[0]=='<'){
         for (var i=0; i<studentList.length; i++){
             if(studentList[i].mark<voto){
